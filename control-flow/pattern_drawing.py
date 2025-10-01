@@ -1,9 +1,2 @@
-size = int(input("Enter the size of the pattern: "))
-
-row = 0
-
-while row < size:
-    for column in range(size):
-        print("*", end="")
-    print()
-    row = row + 1
+def my_func(name,place):
+  print(f"Hello {name}! Are you from {place}?")
